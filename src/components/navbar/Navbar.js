@@ -47,7 +47,7 @@ const Navbar = ({selectedTab}) => {
           <a href="#home">VK</a>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className='nav-item'><a href="#" className={`nav-links ${activeNav === '#home' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#home')}}>Home</a></li>
+          <li className='nav-item'><a href="#home" className={`nav-links ${activeNav === '#home' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#home')}}>Home</a></li>
           <li className='nav-item'><a href="#about" className={`nav-links ${activeNav === '#about' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#about')}}>About</a></li>
           <li className='nav-item'><a href="#services" className={`nav-links ${activeNav === '#services' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#services')}}>Services</a></li>
           <li className='nav-item'><a href="#contact" className={`nav-links ${activeNav === '#contact' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#contact')}}>Contact</a></li>
