@@ -44,7 +44,7 @@ const Navbar = ({selectedTab}) => {
     <nav>
       <div className='nav-container' style={{backgroundColor: navbarColor}}>
         <div className='nav-logo'>
-          <a href="#">VK</a>
+          <a href="#home">VK</a>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'><a href="#" className={`nav-links ${activeNav === '#home' ? 'underline' : ''}`} onClick={() => {changeActiveNav('#home')}}>Home</a></li>

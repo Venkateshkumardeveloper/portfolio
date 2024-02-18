@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
@@ -17,7 +17,7 @@ const Header = ({setSelectedTab}) => {
   return (
     <>
     
-    <header>
+    <header id='home'>
       <div className='container header_container'>
 
         <div className='header_conatiner_top'>
