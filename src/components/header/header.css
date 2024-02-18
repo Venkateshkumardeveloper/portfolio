@@ -1,0 +1,118 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+.header_container{
+    text-align: center;
+    height: 100%;
+}
+
+.header_conatiner_top{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header_container_bottom{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome_text{
+    font-size: 14px;
+}
+.company_name_text{
+    font-size: 30px;
+    letter-spacing: 4px;
+    
+}
+
+/* ========== CTA ========== */
+.cta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ========== HEADERSOCIALS ========== */
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    gap: 0.8rem;
+}
+
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ========== PERSON ========== */
+.person{
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 30%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    background-size: cover;
+}
+
+/* ========== SCROLL ========== */
+.scroll_down{
+    font-weight: 200;
+    font-size: 1.5rem;
+    bottom: 0px !important;
+    align-self: flex-end;
+    margin-bottom: 16px;
+}
+
+
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 992px){
+    header{
+        height: 100vh;
+    }
+
+    .header_socials{
+        align-self: flex-end;
+        margin-bottom: 64px;
+        font-size: 1.8rem;
+
+    }
+    .scroll_down{
+        font-size: 1.8rem;
+        margin-bottom: 64px;
+
+    }
+    .person{
+        width: 50%;        
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 576px){
+    header{
+        height: 100vh;
+    }
+    .header_socials,.scroll_down{
+        display: none;
+    }
+    
+    .person{
+        width: 75%;
+    }
+}
