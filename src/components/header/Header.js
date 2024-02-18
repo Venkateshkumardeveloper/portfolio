@@ -22,8 +22,7 @@ const Header = ({setSelectedTab}) => {
 
         <div className='header_conatiner_top'>
           <h5 className='welcome_text'>Welcome to,</h5>
-          <marquee behavior="alternate" direction="" scrollamount="20">      <h1 className='company_name_text'>Venkatesh kumar</h1>
-</marquee>
+               <h1 className='company_name_text'>Venkatesh kumar</h1>
           <h2>Web Developer</h2>
           <CTA getActiveTab={getActiveTab} />
         </div>
