@@ -59,12 +59,12 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <a href='https://venkateshportfolionairobi.netlify.app/' >  <p>Portfolio</p></a>
+              <a href='https://venkateshportfolionairobi.netlify.app/'target='_blank'  >  <p>Portfolio</p></a>
             
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <a href='https://venkatesh-react-crud.netlify.app/' >  <p>crud</p></a>
+              <a href='https://venkatesh-react-crud.netlify.app/' target='_blank' >  <p>crud</p></a>
             
             </li>
             {/* <li>
