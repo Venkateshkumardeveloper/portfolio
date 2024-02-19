@@ -11,9 +11,9 @@ const HeaderSocials = () => {
     const instagramUrl = "https://www.instagram.com/buntyvenky/"
   return (
     <div className='header_socials'>
-        <a href={linkedInUrl} ><BsLinkedin /></a>
-        <a href={githubUrl} ><FaGithub /></a>
-        <a href={instagramUrl}><FiInstagram /></a>
+        <a href={linkedInUrl} target='_blank'  rel="noreferrer" ><BsLinkedin /></a>
+        <a href={githubUrl} target='_blank'  rel="noreferrer" ><FaGithub /></a>
+        <a href={instagramUrl} target='_blank'  rel="noreferrer"><FiInstagram /></a>
     </div>
   )
 }

@@ -23,24 +23,24 @@ const Services = () => {
             <li>
            
               <BiCheck className='service_list-icon' />
-              <a href="https://venkateshkumardeveloper.github.io/QR-generator/qr.html" >   <p>QR Generator</p></a>
+              <a href="https://venkateshkumardeveloper.github.io/QR-generator/qr.html"target='_blank'  rel="noreferrer" >   <p>QR Generator</p></a>
            
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <a href='https://venkateshkumardeveloper.github.io/Responsive-Registration-form/' >
+              <a href='https://venkateshkumardeveloper.github.io/Responsive-Registration-form/' target='_blank'  rel="noreferrer" >
               <p>Static Login form Ui</p>
               </a>
             
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <a href='https://venkateshkumardeveloper.github.io/Calculator/'>  <p>Calculator </p></a>
+              <a href='https://venkateshkumardeveloper.github.io/Calculator/' target='_blank'  rel="noreferrer">  <p>Calculator </p></a>
             
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <a href='https://venkyuiproject.netlify.app/project' >   <p>UI clone Photographer portfolio</p></a>
+              <a href='https://venkyuiproject.netlify.app/project' target='_blank'  rel="noreferrer">   <p>UI clone Photographer portfolio</p></a>
            
             </li>
             {/* <li>
