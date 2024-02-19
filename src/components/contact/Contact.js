@@ -9,9 +9,9 @@ import { BsWhatsapp } from "react-icons/bs";
 import './contact.css'
 
 const Contact = () => {
-  const companyMailId = "contact@b2y.com"
-  const companyMessengerId = "https://m.me/yuvakrishna.k"
-  const companyWhatsappId = "https://wa.me/919741983488"
+  const companyMailId = "venky19sf@gmail.com"
+  const companyMessengerId = "https://www.messenger.com/t/100033725973678"
+  const companyWhatsappId = "https://wa.me/917702253594"
 
   const form = useRef();
   const sendEmail = (e) => {
