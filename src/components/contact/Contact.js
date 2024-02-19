@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -17,19 +17,19 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_05e8jre', 'template_6nmzldq', form.current, 'S8A9g2VhAo8RFjuHr')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    // emailjs.sendForm('service_05e8jre', 'template_6nmzldq', form.current, 'S8A9g2VhAo8RFjuHr')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
       
-      emailjs.sendForm('service_05e8jre', 'template_xneuagv', form.current, 'S8A9g2VhAo8RFjuHr')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    //   emailjs.sendForm('service_05e8jre', 'template_xneuagv', form.current, 'S8A9g2VhAo8RFjuHr')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
 
       e.target.reset();
   };
