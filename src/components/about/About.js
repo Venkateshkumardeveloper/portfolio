@@ -1,4 +1,7 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 // import { FiUsers } from "react-icons/fi";
 import { VscFolder } from "react-icons/vsc";
@@ -8,8 +11,15 @@ import PERSON from '../../assets/img2.jpg'
 import './about.css'
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init({
+      delay: 50,
+      easing: 'ease'
+
+    })}, [])
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-left">
       <h5>Get to Know</h5>
       <h2>About Us</h2>
 

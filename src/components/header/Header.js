@@ -1,5 +1,7 @@
 import React from 'react'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 
@@ -14,10 +16,17 @@ const Header = ({setSelectedTab}) => {
     setSelectedTab(id)
   }
 
+  useEffect(() => {
+    AOS.init({
+      delay: 50,
+      easing: 'ease'
+
+    })}, [])
+
   return (
     <>
     
-    <header id='home'>
+    <header id='home' data-aos="fade-right">
       <div className='container header_container'>
 
         <div className='header_conatiner_top'>
