@@ -1,12 +1,20 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 import { BiCheck } from "react-icons/bi";
 
 import './services.css'
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({
+      delay: 400,
+
+    })}, [])
   return (
-    <section id='services'>
+    <section id='services' data-aos="fade-right">
       {/* <h5>What we Offer</h5> */}
       <h2>MY Projects</h2>
 

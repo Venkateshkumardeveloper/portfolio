@@ -18,8 +18,7 @@ const Header = ({setSelectedTab}) => {
 
   useEffect(() => {
     AOS.init({
-      delay: 50,
-      easing: 'ease'
+      delay: 400,
 
     })}, [])
 

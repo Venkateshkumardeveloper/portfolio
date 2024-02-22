@@ -1,4 +1,7 @@
 import React, { useRef } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 // import emailjs from 'emailjs-com';
 
@@ -34,8 +37,14 @@ const Contact = () => {
       e.target.reset();
   };
 
+  useEffect(() => {
+    AOS.init({
+      delay: 400,
+
+    })}, [])
+
   return (
-    <section id='contact'>
+    <section id='contact' data-aos="fade-left">
       <h5>Get In Touch</h5>
       <h2>Contact Us</h2>
 
