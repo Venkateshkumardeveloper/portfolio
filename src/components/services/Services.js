@@ -70,6 +70,11 @@ const Services = () => {
               <a href='https://venkateshportfolionairobi.netlify.app/'target='_blank'  rel="noreferrer"  >  <p>Portfolio</p></a>
             
             </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <a href='https://venky-interakt.netlify.app/'target='_blank'  rel="noreferrer"  >  <p>Interakt</p></a>
+            
+            </li>
             {/* <li>
               <BiCheck className='service_list-icon' />
               <a href='https://venkatesh-react-crud.netlify.app/' target='_blank' rel="noreferrer" >  <p>crud</p></a>
